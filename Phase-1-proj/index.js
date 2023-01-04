@@ -32,17 +32,38 @@ const handleTrendData = (data) => {
   sliderContainer.appendChild(slider);
 };
 
-const btn = document.getElementById("button");
-const popUp = document.querySelector(".popup");
 
-const closeBtn = document.querySelector(".close");
+//Clicks on the Add tocken button, popUp form pops up, closes on the X button. 
 
-btn.addEventListener("click", () => {
-  popUp.style.display = "flex";
-});
+const addTokenBtn = document.querySelector('.btn')
+const popUpBg = document.querySelector('.popup-bg')
+const popUpClose = document.querySelector('.popup-close')
+addTokenBtn.addEventListener('click', () => {
+  //console.log('click')
+  popUpBg.classList.add('bg-active')
+})
 
-closeBtn.addEventListener("click", () => {
-  popUp.style.display = "none";
-});
+popUpClose.addEventListener('click', () => {
+  popUpBg.classList.remove('bg-active')
+})
+
+// Submits a form with new coins and appends it to the slide.
+const cryptoForm = document.querySelector('.crypto-form')
+cryptoForm.addEventListener('submit', (event) => {
+  event.preventDefault()
+  console.log('submit')
+    const formName = document.querySelector('#name').value
+    const formSymbol = document.querySelector('#symbol').value
+    const formImage = document.querySelector('#img').value
+    const token = {
+      name: formName,
+      symbol: formSymbol,
+      large: formImage
+    }
+    handleTrendData(token)
+    popUpBg.classList.remove('bg-active')
+    cryptoForm.reset()
+})
 
 fetchTrendingData();
+

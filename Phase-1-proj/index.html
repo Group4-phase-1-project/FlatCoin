@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+  <script defer src="index.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlatCoin</title>
@@ -25,26 +26,24 @@
           <h2>Hottest Pair 🔥</h2>
           <div class="slider-container">
             <div class="slider"></div>
-            <div class="add-token">
-              <a href="#" class="button" id="button">Add Token</a>
-            </div>
-            <div class="popup">
-              <div class="popup-content">
-                <input type="text" id="name" placeholder="Token Name" />
-                <input type="text" id="symbol" placeholder="Symbol" />
-                <input type="text" id="logo" placeholder="Logo Url" />
-                <a href="#" id="add" class="button">Add Token</a>
-                <i class="close fa-regular fa-circle-xmark"></i>
-              </div>
-            </div>
           </div>
+          <button class="btn">Add token</button>
+          <div class="popup-bg">
+            <form class="crypto-form">
+              <!-- <h2>Add Your Own Coin</h2> -->
+              <label for="name">Name:</label>
+              <input id="name" type="text" name="name">
+              <label for="symbol"></label>Symbol: </label>
+              <input id="symbol" type="symbol" name="symbol">
+              <label for="img">Image: </label>
+              <input id="img" type="text" name="img">
+              <input id="btn-two" type="submit" value="Add Crypto">
+              <span class="popup-close">x</span>
+            </form>
         </div>
       </div>
     </div>
   </body>
-  <script
-    src="https://kit.fontawesome.com/38dbe5a43c.js"
-    crossorigin="anonymous"
-  ></script>
   <script defer src="index.js"></script>
 </html>
+      
