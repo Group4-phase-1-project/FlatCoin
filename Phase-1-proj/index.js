@@ -32,4 +32,17 @@ const handleTrendData = (data) => {
   sliderContainer.appendChild(slider);
 };
 
+const btn = document.getElementById("button");
+const popUp = document.querySelector(".popup");
+
+const closeBtn = document.querySelector(".close");
+
+btn.addEventListener("click", () => {
+  popUp.style.display = "flex";
+});
+
+closeBtn.addEventListener("click", () => {
+  popUp.style.display = "none";
+});
+
 fetchTrendingData();
