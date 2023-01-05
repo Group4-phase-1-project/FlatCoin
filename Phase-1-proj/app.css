@@ -73,6 +73,22 @@ h1 {
   width: 120%;
 }
 
+.hottest h2 {
+  padding-bottom: 40px;
+  padding-right: 240px;
+  text-align: center;
+    color: #FFEB3B;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-box-reflect: above -90px linear-gradient(transparent, #0008);
+    text-shadow: 0 0 10px #FF8C3B,
+                0 0 40px #FF8C3B,
+                0 0 80px #FF8C3B,
+                0 0 160px #FF8C3B,
+                0 0 240px #FF8C3B;
+    width: 120%;
+}
+
 .trend-slider {
   display: flex;
   height: 60vh;
