@@ -30,7 +30,6 @@
           <button class="btn">Add token</button>
           <div class="popup-bg">
             <form class="crypto-form">
-              <!-- <h2>Add Your Own Coin</h2> -->
               <label for="name">Name:</label>
               <input id="name" type="text" name="name">
               <label for="symbol"></label>Symbol: </label>
@@ -43,6 +42,43 @@
         </div>
       </div>
     </div>
+  </div>
+    <div id="markets" class="containers">
+        <div class="table-header">
+          <h2 id="asset-title">Top 20 Cryptocurrencies</h2>
+          <div class="search-box">
+            <input id="search-text"
+            type="search"
+            placeholder="Search Token Name" />
+          </div>
+        </div>
+        <div class="table">
+          <div class="table-rows">
+            <div class="th-table-row col-md-6 col-md-5">
+              <div id="rank" class="crypto-rank">#</div>
+              <div id="name" class="crypto-name">Name</div>
+              <div id="price" class="crypto-price">Price</div>
+              <div id="change" class="crypto-24h-change">24h Change</div>
+              <div id="volume" class="crypto-total-volume">24h Volume</div>
+              <div id="mcap" class="crypto-market-cap">Market Cap</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="row align-items-center gy-0">
+          <div class="col-md-6 col-md-5">
+            <p class="logo-text m-0 logoContainer">
+              <a href="#nav"
+                ><img
+                  src="FcLogo.png"
+                  alt="flatcoin"
+              /></a>
+            </p>
+            <p>© Copyright FlatCoin, 2022.</p>
+          </div>
+    </footer>
   </body>
   <script defer src="index.js"></script>
 </html>
