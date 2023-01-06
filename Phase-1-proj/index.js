@@ -139,7 +139,7 @@ const searchFilter = document.querySelector("#search-text");
 
 const filterSearch = () => {
   const searchInput = document.querySelector("#search-text");
-  const filter = searchInput.value.toLowerCase();
+  const filter = searchInput.value;
   const listItems = document.querySelectorAll(".table-row");
 
   listItems.forEach((item) => {

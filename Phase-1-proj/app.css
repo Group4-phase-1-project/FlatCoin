@@ -116,6 +116,15 @@ h1 {
   color: white;
 }
 
+@keyframes scrolling {
+  0% {
+    transform: translateX(80vw);
+  }
+  100% {
+    transform: translateX(-180vw);
+  }
+}
+
 .btn {
   width: 20%;
   margin: 20px;
@@ -214,15 +223,6 @@ h1 {
   }
   .slider-container {
     width: 100%;
-  }
-}
-
-@keyframes scrolling {
-  0% {
-    transform: translateX(80vw);
-  }
-  100% {
-    transform: translateX(-180vw);
   }
 }
 
