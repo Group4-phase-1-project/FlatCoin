@@ -70,12 +70,11 @@ h1 {
   text-align: center;
   font-size: 25px;
   color: white;
-  width: 120%;
+  width: 130%;
 }
 
 .hottest h2 {
   padding-bottom: 40px;
-  padding-right: 240px;
   text-align: center;
   color: #ffeb3b;
   font-size: 40px;
@@ -83,13 +82,12 @@ h1 {
   -webkit-box-reflect: above -90px linear-gradient(transparent, #0008);
   text-shadow: 0 0 10px #ff8c3b, 0 0 40px #ff8c3b, 0 0 80px #ff8c3b,
     0 0 160px #ff8c3b, 0 0 240px #ff8c3b;
-  width: 120%;
+  width: 100;
 }
 
 @media (max-width: 768px) {
   .hottest h2 {
-    position: relative;
-    padding-left: 60px;
+    padding-left: 10px;
   }
 }
 
