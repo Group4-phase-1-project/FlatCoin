@@ -11,12 +11,12 @@
 </br>
 
 # Purpose of Flatcoin and How to Use
-The purpose of Flatcoin is to allow users to view top trending cryptocoins and or view the top 20 cryptocurrencies on the market. Because this page is connected to the API coingecko, it stays up to date with the latest cryptocurrency data. You can test this by simply refreshing the page, and checking the changes in a number of different ways such as the price and or the 24h change. The page is seperated by two features, which can be explained below:
+The purpose of Flatcoin is to allow users to view top trending cryptocoins and or view the top 20 cryptocurrencies on the market. Because this page is connected to the API coingecko, it stays up to date with the latest cryptocurrency data. You can test this by simply refreshing the page, and checking the changes in a number of different ways such as the price and or the 24h change. The page is separated by two features, which can be explained below:
 </br>
 </br>
 
 ### Slider
- The slider at the top of the page will automatically scroll to the left with the current top trending cryptocoins. There's a button beneath the slider with the current top trending coins that will allow the user to create and append a new cryptocoin to slider. To add a new coin to the slider, click the add token button and a popup will appear. In the form, create a name and symbol for the coin, then input the url for an image source of your choosing for the image form. You will then see the coin you created appear on the slider.
+ The slider at the top of the page will automatically scroll to the left with the current top trending cryptocoins. There's a button beneath the slider with the current top trending coins that will allow the user to create and append a new cryptocoin to the slider. To add a new coin to the slider, click the add token button and a popup will appear. In the form, create a name and symbol for the coin, then input the url for an image source of your choosing for the image form. You will then see the coin you created appear on the slider.
  </br>
  </br>
 
